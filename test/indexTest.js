@@ -18,7 +18,7 @@ describe('index.js', function () {
       expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
     });
 
-    it('should return "No go." if the destination city is not NYC', function () {
+    it('should return ("No go.")" if the destination city is not NYC', function () {
       expect(ternaryCheckCity('Pittsburgh')).to.equal('No go.');
     });
   });
